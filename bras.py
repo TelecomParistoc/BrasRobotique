@@ -1,4 +1,10 @@
 from AX12 import AX12
+#angles settings in degree
+basea0=0
+epaulea0=45
+coudea0=140#/!\ negativ angles
+pinceopen=45
+pinceclose=-29
 
 def stop(ax12):
     stopped = False
