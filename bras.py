@@ -19,6 +19,6 @@ pince = AX12(145)
 stop(pince)
 
 try:
-    pince.move(0)
+    pince.move(45)
 except:
     pass
